@@ -75,6 +75,25 @@
         </video>
         </section>
             </section>
+
+            <section>
+                <h2>Grafik dengan Canvas</h2>
+                <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;">
+               </canvas>
+                <script>
+               var canvas = document.getElementById("myCanvas"); 
+               var ctx = canvas.getContext("2d");
+               // Menggambar lingkaran biru 
+               ctx.beginPath();
+               ctx.arc(300, 300, 100, 0, 5 * Math.PI);
+               ctx.fillStyle = "blue"; 
+               ctx.fill();
+               // Menggambar persegi panjang merah 
+               ctx.fillStyle = "red";
+               ctx.fillRect(50, 50, 200, 200);
+                </script>
+            </section>
+
 </head>
 <body>
     
