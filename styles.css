@@ -1,0 +1,111 @@
+/* Reset beberapa elemen dasar */
+body, h1, h2, p {
+    margin: 10;
+    padding: 10;
+}
+
+/* Atur font dasar */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 2;
+    background-color: #ebc0c0;
+    color: #1b1515;
+    padding: 20px;
+}
+
+/* Gaya untuk header */
+header {
+    background: #9e9a9a;
+    color: #fff;
+    padding: 10px;
+    text-align: light;
+}
+
+header h1 {
+    margin-bottom: 50px;
+}
+
+header p {
+    font-size: 5.4em;
+}
+
+/* Gaya untuk artikel */
+main {
+    max-width: 1000px;
+    margin: 2px auto;
+    background: #c48e8e;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(221, 161, 161, 0.1);
+}
+
+article h2 {
+    margin-top: 100;
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center;
+    padding: 100px; 
+    position: absolute;
+    bottom: 100;
+    width: 0%;
+}
+
+/* Reset beberapa gaya dasar */
+body, h1, h2, p, ul, li {
+    margin: 50;
+    padding: 100;
+    box-sizing: border-box;
+}
+
+/* Gaya umum untuk body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    line-height: 2;
+    padding: 10;
+    margin: 100;
+}
+
+/* Gaya header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gaya utama */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 600px;
+}
+
+/* Gaya footer */
+footer {
+    text-align: center;
+    padding: 100px; 
+    bottom: 100;
+    width: 100%;
+}
